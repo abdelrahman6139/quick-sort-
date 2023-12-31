@@ -1,0 +1,22 @@
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    else:
+        # Choose pivot using median-of-three
+        pivot = median_of_three(arr[0], arr[len(arr)//2], arr[-1])
+
+        # Partition the array
+        less = [x for x in arr if x < pivot]
+        equal = [x for x in arr if x == pivot]
+        greater = [x for x in arr if x > pivot]
+
+        # Recursively sort the partitions
+        return quicksort(less) + equal + quicksort(greater)
+
+def median_of_three(a, b, c):
+    return sorted([a, b, c])[1]
+
+# Example usage:
+arr = [3, 1, 4, 52,1, 5, 9, 2, 6, 5,10,111,55, 3, 5]
+sorted_arr = quicksort(arr)
+print(sorted_arr)

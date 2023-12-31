@@ -1,0 +1,9 @@
+resours:
+1.  https://www.geeksforgeeks.org/implement-quicksort-with-first-element-as-pivot/
+2. https://stackoverflow.com/questions/38487269/space-complexity-of-quick-sort
+3.   https://www.geeksforgeeks.org/time-and-space-complexity-analysis-of-quick-sort/
+4.https://stackoverflow.com/questions/7934422/how-do-i-use-the-median-of-an-array-as-the-pivot-for-quicksort
+5.https://www.youtube.com/watch?v=1Vl2TB7DoAM
+
+
+ my video link  https://youtu.be/2LOgkO6Rjb8
